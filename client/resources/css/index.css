@@ -1,0 +1,44 @@
+/* Changes the header color  */
+.jumbotron{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+/* Changes to the table border */
+.table-bordered{
+    width: 100%;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}  
+
+.col-md-6{
+    text-align: center;
+}
+
+#jokeTable th{
+    text-align: center;
+    color: red;
+}
+
+.btn-primary{
+    display: inline-block;
+    width: 98%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: crimson;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
