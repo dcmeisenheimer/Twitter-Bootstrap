@@ -1,17 +1,17 @@
 ﻿# Twitter-Bootstrap
 
-##The goal of responsive design:
+## The goal of responsive design:
     1. responsive design changes the view or "respond" dependent on design.
     2. Bootstrap is the most popular framework.
 
-##What is Bootrap?
+## What is Bootrap?
     1. It is mostly CSS but includes HTML, CSS it will make your project responsive
     2. There is prebuilt templates
         a. Includes design templates for typography, forms, buttons, tables, navigation, modals, etc.
     3. Often reffered to as twitter Bootrap
         a. Mark Otto and Jacob Thornton at twitter
 
-##How to use Bootrap?
+## How to use Bootrap?
     1. Download and run locally
         a. getbootstrap.com
     2. Include Bootstrap from Content Delivery Network (CDN)
@@ -20,7 +20,7 @@
         c. Using CDN may allow sites to load faster for users that have records in cache 
         from other sites that use the same CDN.
 
-##Scripts needed: Bootrap 3.3
+## Scripts needed: Bootrap 3.3
     1. Include this CSS script in the header
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,14 +31,14 @@
 	<!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-##Bootstrap Importance:
+## Bootstrap Importance:
     1. Bootstrap is Mobile first
     2. To ensure proper rendering and touch zooming, you must have the following tag in the <head> element
     <meta name="viewport" content="width=device-width, initial-scale=1">
         a. This sets the width = the width of the screen on the device being used
         b. Also sets the initial zoom scale to 1 when the page is loaded
 
-##Containers:
+## Containers:
     1. Bootstrap requires a containing element to wrap site content
     2. There are two container classes to choose from:
         a. .container provides a responsive fixed width container with some padding
@@ -54,7 +54,7 @@
         d. <div class="col-md-4">Span 4</div><div class="col-md-4">Span 4</div> 
         e. <div class="col-md-4">Span 4</div>
 
-##Table Cheat Sheet:
+## Table Cheat Sheet:
     1. Table
         a. <table></table>
     2. Table Row 
@@ -64,22 +64,22 @@
     4. Table data
         a. <td></td>
 
-##Table Designs:
+## Table Designs:
     1. Basic table has light padding and only horizontal dividers.  class=“table”
     2. Striped table adds zebra-stripes to a table.  class=“table-striped”
     3. Bordered table adds borders on all sides of the table and cells. class=“table-bordered”
     4. Hover tables enables a hover state on table rows.  class=“table-hover”
 
-##Images:
+## Images:
     1. Rounded corners will add rounded corners to an image. class=“img-rounded”
     2. class=“img-circle” will shape the image to a circle.
     3. class=“img-thumbnail” will turn the image into a thumbnail
 
-##Responsive Images
+## Responsive Images
     1. Images come in all sizes as do screens.
     2. class=“img-responsive” will automatically adjust to the fit of the screen and the parent element
 
-##Buttons:
+## Buttons:
     1. There are 7 Button styles:
         a. .btn-default
         b. .btn-primary
